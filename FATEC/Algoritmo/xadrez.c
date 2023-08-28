@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 const char MAGIC_NUMBER[2] = "P2";
 const int WIDTH = 1500;
@@ -27,8 +27,5 @@ int main(int argc, char const *argv[])
         }
         fprintf(tab, "\n ");
     }
-    
-    
-
     return 0;
 }
